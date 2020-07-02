@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.me.nav.sssgp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:orientation="vertical"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".bat"
+            android:label="35 батарея" />
+        <activity
+            android:name=".Ekat"
+            android:label="Памятник Екатерине II" />
+        <activity
+            android:name=".Kaz"
+            android:label="Памятник Казарскому" />
+        <activity
+            android:name=".Nakhim"
+            android:label="Памятник Нахимову" />
+        <activity
+            android:name=".PZK"
+            android:label="Памятник Затопленным кораблям" />
+        <activity
+            android:name=".Grafsk"
+            android:label="Графская пристань" />
+        <activity
+            android:name=".Zeleznyak"
+            android:label="Бронепоезд &apos;Железняков&apos;" />
+        <activity
+            android:name=".dvuhsotletie"
+            android:label="Памятник двухсотлетия города" />
+        <activity
+            android:name=".shtykparus"
+            android:label="Обелиск штык-парус" />
+        <activity
+            android:name=".matrosisoldat"
+            android:label="Памятник Матросу и Солдату" />
+        <activity android:name=".PZKVideo" />
+        <activity android:name=".GrafskVideo" />
+        <activity android:name=".KazVideo" />
+        <activity android:name=".NakhimVideo" />
+        <activity android:name=".matrosisoldatVideo" />
+        <activity android:name=".batVideo" />
+        <activity android:name=".EkatVideo" />
+        <activity android:name=".shtykparusVideo" />
+        <activity
+            android:name=".Tour"
+            android:label="Тур по площади Нахимова" />
+        <activity
+            android:name=".NewTour"
+            android:label="Новый тур" />
+
+    </application>
+
+</manifest>
